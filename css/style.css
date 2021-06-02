@@ -1,0 +1,99 @@
+.nav-list {
+    list-style: none;
+    float: right;
+    display: flex;
+    padding-right: 2%;
+    
+}
+.nav-item {
+    padding-right: 10%;
+}
+
+.main {
+display: flex;
+flex-direction: column;
+
+}
+.main-logo {
+    padding-top: 14%;
+    padding-left: 50%;
+}
+.search-bar {
+    margin-top: 1%;
+    margin-left: 45%;
+    margin-right: 25%;
+    /* border: 1px solid ; */
+    width: 33%;
+    height: 35%;
+}
+.buttons{
+    margin-top: auto;
+    margin-left: 50%;
+    margin-right: 25%;
+    display: flex;
+    padding-top: 1.5%;
+}
+button {
+    margin-left: 5%;
+    border: gray;
+    
+    width: 30%;
+    text-align: center;
+    height: 30px;
+    font-size: 90%;
+}
+  
+input[type=text] {
+    width: 80%;
+    height: auto;
+    border: 1px solid gray;
+    width: 125;
+   
+
+}
+.language {
+    margin-top: auto;
+    margin-left: 55%;
+    padding-top: 1%;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    margin-top: 19.80%;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background:#F2F2F2;
+    height: 100px;
+}
+.row-1 {
+    border-bottom: 1px solid #55525271;
+}
+.row-1 p {
+    margin-left: 1%;
+}
+.row-2 {
+    border-bottom: 1px solid #55525271;
+}
+.list-1{
+    float: left;
+    list-style: none;
+    display: flex;
+    padding-left: 1%;
+    width: 25%;
+}
+.list-2{
+    float: right;
+    list-style: none;
+    display: flex;
+    padding-right: 2%;
+}
+.list-1-item{
+    margin-right: 5%;
+}
+.list-2-item {
+
+    margin-left: 5%;
+}
