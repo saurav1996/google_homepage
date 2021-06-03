@@ -11,8 +11,8 @@
 
 .main {
 display: flex;
-flex-direction: column;
-
+flex-direction: column; 
+margin: auto;
 }
 .main-logo {
     padding-top: 14%;
@@ -39,16 +39,40 @@ button {
     
     width: 30%;
     text-align: center;
-    height: 30px;
+    height: 33px;
     font-size: 90%;
 }
-  
+ 
+button:hover {
+  border: 0.5px solid gray;
+  box-shadow: 0.5px 0.5px rgb(145, 144, 144);
+  border-radius: 8%;
+}
+
+.language-link {
+    text-decoration: none;
+}
+.search-bar {
+    border: 1px solid lightgray;
+    height: 40px;
+    border-radius: 30px;
+}
+.search-icon {
+    height: 27px;
+    width: 27px;
+    margin-top: 7px;
+    margin-left: 8px;
+}
+.search-bar:visited{
+    border: 0.5px solid rgb(145, 144, 144);
+}
 input[type=text] {
-    width: 80%;
-    height: auto;
-    border: 1px solid gray;
+    width: 85%;
+    height: 90%;
+    border: none;
+    outline:none;
     width: 125;
-   
+    padding-bottom: 2px;
 
 }
 .language {
@@ -95,5 +119,5 @@ input[type=text] {
 }
 .list-2-item {
 
-    margin-left: 5%;
+    margin-right: 10%;
 }
